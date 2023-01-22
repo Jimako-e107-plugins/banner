@@ -204,7 +204,7 @@ class banner_ui extends e_admin_ui
 					
 			}
 			
-			if(!empty($new_data['banner_campaign_sel']))
+			if(!empty($new_data['banner_campaign_sel']) && $new_data['banner_campaign_sel'] != '_new_' )
 			{
 				$new_data['banner_campaign'] = $new_data['banner_campaign_sel'];
 			}
